@@ -20,21 +20,28 @@
 ---
 
 ## 📁 Folder Structure
-crema-di-caffe/
-├── backend/
-│   ├── app.py
-│   ├── menu.json
-│   ├── routes/
-│   └── controllers/
-│
-├── frontend/
-│   ├── index.html
-│   ├── menu.html
-│   ├── cart.html
-│   ├── css/
-│   └── js/
-│
-└── README.md
+
+- `crema-di-caffe/`
+  - `backend/`
+    - `app.py` – Flask app entry point
+    - `menu.json` – Static menu data
+    - `requirements.txt` – Backend dependencies
+    - `routes/`
+      - `menu_routes.py` – Handles `/menu` API
+      - `cart_routes.py` – Handles `/cart` API
+    - `controllers/`
+      - `menu_controller.py`
+      - `cart_controller.py`
+  - `frontend/`
+    - `index.html` – Home page
+    - `menu.html` – Menu page
+    - `cart.html` – Cart page
+    - `css/`
+      - `style.css` – Frontend styling
+    - `js/`
+      - `script.js` – Cart & menu interactivity
+  - `README.md` – Project documentation
+
 ---
 
 ## 🔌 API Endpoints
